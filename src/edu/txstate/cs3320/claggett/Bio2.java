@@ -1,4 +1,4 @@
-package cs3320hw2;
+package edu.txstate.cs3320.claggett;
 
 public class Bio2 {
 
