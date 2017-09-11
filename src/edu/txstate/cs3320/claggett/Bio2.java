@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -22,6 +23,7 @@ public class Bio2 {
 	public static void main(String[] args) {
 		
         readParagraphs(INPUT_FILE);
+        initialize(OUTPUT_FILE);
         writeBio(TITLE);
 
 	}
@@ -29,7 +31,13 @@ public class Bio2 {
 	
 	private static void writeHTML(String html)
 	{
-		System.out.println(html);
+		try {
+			writer.write(html + "\n");
+			writer.flush();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+
 	}
 	
 	private static void writeHTMLOpening (String title) 
@@ -111,6 +119,16 @@ public class Bio2 {
 		writeParagraphs();
 		writeHTMLClosing();
 	}
+	
+	
+	private static void initialize (String fileName) {
+		try {
+			writer = new BufferedWriter (new FileWriter(fileName));
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+           }
+
 
 
 
