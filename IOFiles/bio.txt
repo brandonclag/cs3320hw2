@@ -1,8 +1,8 @@
 [h1] Who Am I?
-My name is Ramsey Bolton. I am a Senior CS Major.  I know the computer languages C++ and Java. 
+My name is Brandon Claggett. I am a Senior CS Major.  I know the computer languages C++, Java, and javascript. 
 [h1]What are my interests?
-I would like to explore super computing and IoT. I am afraid of Winter and Winterfell.
+I would like to explore Front-end development such as web dev or android dev. I also enjoy Longboarding and playing videogames.
 [h1] Why am I taking this class?
-Because it doesn't start until afternoon.
+I am very interested in front end development as well as web development in general.
 [h1]What is my five year plan?
-My five year plan is to live for 5 years.
+My five year plan is to go to work at usaa starting in Februaray, then getting my master's in computer science. 
